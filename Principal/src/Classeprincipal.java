@@ -11,14 +11,12 @@ public class Classeprincipal {
 		System.out.println(objeto_conta_um.atributoNumeroConta);
 		System.out.println(objeto_conta_um.aributoSaldoConta);
 		System.out.println(objeto_conta_um.atributoTipoConta);
-		System.out.println(objeto_conta_um.atributoNomeCliente);
-		System.out.println(objeto_conta_um.atributoDocumentoCliente);
+	
 		
 		System.out.println(objeto_conta_dois.atributoNumeroConta);
 		System.out.println(objeto_conta_dois.aributoSaldoConta);
 		System.out.println(objeto_conta_dois.atributoTipoConta);
-		System.out.println(objeto_conta_dois.atributoNomeCliente);
-		System.out.println(objeto_conta_dois.atributoDocumentoCliente);
+	
 		
 		//Adicionando dados das contas
 		objeto_conta_um.atributoNumeroConta = 123;
@@ -34,14 +32,14 @@ public class Classeprincipal {
 		System.out.println(objeto_conta_um.atributoNumeroConta);
 		System.out.println(objeto_conta_um.aributoSaldoConta);
 		System.out.println(objeto_conta_um.atributoTipoConta);
-		System.out.println(objeto_conta_um.atributoNomeCliente);
-		System.out.println(objeto_conta_um.atributoDocumentoCliente);
+
 		
 		System.out.println(objeto_conta_dois.atributoNumeroConta);
 		System.out.println(objeto_conta_dois.aributoSaldoConta);
 		System.out.println(objeto_conta_dois.atributoTipoConta);
-		System.out.println(objeto_conta_dois.atributoNomeCliente);
-		System.out.println(objeto_conta_dois.atributoDocumentoCliente);
+
+		objeto_conta_um.atributoPessoa = new ClassePessoa();
+		
 		
 		
 	}
