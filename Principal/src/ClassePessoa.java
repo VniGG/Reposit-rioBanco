@@ -1,7 +1,7 @@
 
 public class ClassePessoa {
 	
-	String atributoNomePessoa; 
-	int atributoDocumentoPessoa;
+	String atributoNomePessoa; //null
+	int atributoDocumentoPessoa; //0
 	
 }
